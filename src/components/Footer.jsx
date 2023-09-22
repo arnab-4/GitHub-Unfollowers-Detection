@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6">
@@ -29,9 +31,11 @@ export const Footer = () => {
           </a>
         </div>
       </div>
+      <a href="https://arnab-portfolio-v2.vercel.app/" target="_blank" rel="noopener noreferrer">
       <div className="border-t border-gray-600 text-center mt-4 pt-4 text-xs">
         Design and Build by Arnab Manna
       </div>
+      </a>
     </footer>
   );
 };

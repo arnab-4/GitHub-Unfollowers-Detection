@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-900 text-gray-50 h-screen pb-4;
+  }
+
+  #root {
+    @apply h-full flex flex-col px-4 sm:px-8 md:px-12;
+  }
+}
+
+@layer utilities {
+  .Main {
+    @apply h-full overflow-y-hidden pt-1 pb-4;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

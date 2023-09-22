@@ -51,7 +51,7 @@ export const UserInfo = () => {
   return (
     <div className="UserInfo flex flex-col sm:flex-row gap-4 sm:gap-6 items-center justify-center text-gray-950">
       <Input
-        placeholder="Enter Your Username"
+        placeholder="Enter Your Github Username"
         onChange={(e) => setUsername(e.target.value)}
       />
       <Button onClick={handleGetUnfollowers}>Get Unfollowers</Button>
